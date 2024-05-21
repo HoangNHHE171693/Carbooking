@@ -104,7 +104,7 @@ public class UserDAO extends DBContext {
             }
             pstm.setString(5, genderINT);
             pstm.setString(6, password);
-            pstm.setString(7, "3");
+            pstm.setString(7, "1");
             pstm.executeUpdate();
             //Close pstm
             pstm.close();

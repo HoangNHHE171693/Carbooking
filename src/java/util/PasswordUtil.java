@@ -103,7 +103,7 @@ public class PasswordUtil {
                 hashedPassword = "0" + hashedPassword;
             }
 
-            return hashedPassword;
+            return password;
         } catch (NoSuchAlgorithmException e) {
             System.out.println("hashPasswordMD5: " + e.getMessage());
             return null;
